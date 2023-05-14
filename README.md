@@ -1,4 +1,4 @@
-#LeetCode Stuff
+##LeetCode Stuff
 
 | # | Problem | Solution | Hint(for me) |
 |---| ------- | -------- | ------------ |
