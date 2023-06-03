@@ -1,7 +1,5 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        if len(matrix) == 1 and matrix[0][0] == target:
-            return True
         for i in range(len(matrix)):
             curr = (len(matrix[i]) - 1) // 2
             left, right = 0, len(matrix[i]) - 1
