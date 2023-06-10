@@ -11,10 +11,8 @@ class Solution:
         for i in range(n):
             right = right.next
         while True:
-            temp = left.next
-            connect = temp.next
             if right.next is None:
-                left.next = connect
+                left.next = left.next.next
                 return dummy.next
             else:
                 left = left.next
