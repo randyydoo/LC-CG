@@ -2,7 +2,7 @@
  Leetcode🫡
 </h1>
 
-| # | Problem | Solution | Difficulty | Hint(for me) |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/TwoSum.py) | Easy | Check for diff and map value to index |
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/int_palindrome.py) [C++](./easy/PalindromeNumber.cpp) | Easy | Cast to string and 2 pointer | 
