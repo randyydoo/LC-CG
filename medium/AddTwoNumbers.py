@@ -12,7 +12,7 @@ class Solution:
         while curr1 and curr2:
             s = curr1.val + curr2.val + carry
             if s > 9:
-                carry = 1
+                carry = s // 10
                 ans.next = ListNode(s % 10)
             else:
                 carry = 0
@@ -21,7 +21,7 @@ class Solution:
         while curr1:
             s = curr1.val + carry
             if s > 9:
-                carry = 1
+                carry = s // 10
                 ans.next = ListNode(s % 10)
             else:
                 carry = 0
@@ -30,7 +30,7 @@ class Solution:
         while curr2:
             s = curr2.val + carry
             if s > 9:
-                carry = 1
+                carry = s // 10
                 ans.next = ListNode(s % 10)
             else:
                 carry = 0
