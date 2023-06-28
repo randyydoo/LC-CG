@@ -18,24 +18,17 @@ class Solution:
                 carry = 0
                 ans.next = ListNode(s)
             ans, curr1, curr2 = ans.next, curr1.next, curr2.next
-        while curr1:
-            s = curr1.val + carry
+        while curr1 or curr2:
+            num1 = curr1.val if curr1 else 0
+            num2 = curr2.val if curr2 else 0
+            s = num1 + num2 + carry
             if s > 9:
                 carry = s // 10
                 ans.next = ListNode(s % 10)
             else:
                 carry = 0
                 ans.next = ListNode(s)
-            ans, curr1 = ans.next, curr1.next
-        while curr2:
-            s = curr2.val + carry
-            if s > 9:
-                carry = s // 10
-                ans.next = ListNode(s % 10)
-            else:
-                carry = 0
-                ans.next = ListNode(s)
-            ans, curr2 = ans.next, curr2.next
+            ans, curr1, curr2 = ans.next, curr1.next if curr1 else None, curr2.next if curr2 else None
         if carry == 1:
             ans.next = ListNode(1)
         return dummy.next
