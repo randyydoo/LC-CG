@@ -3,13 +3,13 @@
 </h1>
 
 ## Table of Contents
-- [Mapping & Arrays](#mapping-&-arrays)
-- [Stack](#stack)
-- [Linked List](#linked-list)
-- [Binary Search](#binary-search)
-- [Two Pointer](#two-pointer)
-- [Matrix](#matrix)
-- [Sliding Window](#sliding-window)
+1. [Mapping & Arrays](#mapping-&-arrays)
+2. [Stack](#stack)
+3. [Linked List](#linked-list)
+4. [Binary Search](#binary-search)
+5. [Two Pointer](#two-pointer)
+6. [Matrix](#matrix)
+7. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
 | # | Mapping & Arrays| Solution | Difficulty | Hint |
