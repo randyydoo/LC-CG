@@ -12,7 +12,7 @@
 7. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
-| # | Mapping & Arrays| Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/TwoSum.py) | Easy | Check for diff and map value to index |
 |13|[Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/RomanToInteger.py) [C++](./easy/RomanToInteger.cpp) | Easy | Map Roman to Int | 
@@ -30,7 +30,7 @@
 
 
 ## Stack
-| # | Stack | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |20|[Valid Parenthesses](https://leetcode.com/problems/valid-parentheses/)| [Python](./easy/ValidParentheses.py) [C++](./easy/ValidParenthesses.cpp) | Easy | Check prev and pop 2x | 
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](./medium/EvaluateReversePolishNotation.py) | Medium | Pop 2x and append | 
@@ -40,7 +40,7 @@
 
 
 ## Linked List
-| # | Linked List | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./easy/MergeTwoSortedLists.py) | Easy | Traverse and connect head to remaning list1 or list 2 | 
 |33|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./easy/ReverseLinkedList.py) | Easy | Keep Track of prev curr and next | 
@@ -53,7 +53,7 @@
 
 
 ## Binary Search
-| # | Binary Search | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | Set temp ans to top of list and binary search | 
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./medium/BinarySearch.py) | Medium | Keep start and end pointers | 
@@ -62,7 +62,7 @@
 
 
 ## Two Pointer
-| # | Two Pointer | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/int_palindrome.py) [C++](./easy/PalindromeNumber.cpp) | Easy | Cast to string and 2 pointer | 
 |11|[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./medium/ContainerMostWater.py) | Medium | Two pointer  |
@@ -71,7 +71,7 @@
 
 
 ## Matrix
-| # | Matrix | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [Python](./easy/MatrixDiagonalSum.py) [C++](./easy/MatrixDiagonalSum.cpp) | Easy | Two pointer | 
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./medium/SpiralMatrix.py) | Medium | Keep track of L,R,T,B | 
@@ -80,7 +80,7 @@
 
 
 ## Sliding Window
-| # | Sliding Window | Solution | Difficulty | Hint |
+| # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./easy/BestTimeBuyStock.py) | Easy | Keep track of highest |
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
