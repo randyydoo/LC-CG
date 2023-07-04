@@ -43,6 +43,7 @@
 | # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./easy/MergeTwoSortedLists.py) | Easy | Traverse and connect head to remaning list1 or list 2 | 
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./hard/MergeKSortedLists.py) | Hard | Create helper function to merge 2 lists and merge first list with rest |
 |33|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./easy/ReverseLinkedList.py) | Easy | Keep Track of prev curr and next | 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [Python](./medium/AddTwoNumbers.py) | Medium | Go left to right and keep track of carry |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./medium/RemoveNthNodeFromEndOfList.py) | Medium | Create dummy node and 2 pointer |
