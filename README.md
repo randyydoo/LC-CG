@@ -49,7 +49,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./medium/RemoveNthNodeFromEndOfList.py) | Medium | Create dummy node and 2 pointer |
 |24|[Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./medium/SwapNodesInPairs.py) | Medium | Keep track of curr.next and curr.next.next |
 |138|[Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./medium/CopyListWithRandomPointer.py) | Medium | Map old node to new node |
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./medium/LinkedListCycle.py) | Medium | Use set |
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./easy/LinkedListCycle.py) | Easy | Use slow and fast pointer to check for overlap |
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./medium/ReorderList.py) | Medium | Find middle using 2 ptr, reverse list end -> middle, merge | 
 
 
