@@ -8,22 +8,21 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        middle, end = head, head.next
-        while end and end.next:
-            middle = middle.next
-            end = end.next.next
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-        newHead, prev, middle.next= middle.next, None, None
-        while newHead:
-            nxt = newHead.next
-            newHead.next = prev
-            prev = newHead
-            newHead = nxt
-        left,right = head, prev
+        tempHead, prev, slow.next = slow.next, None, None
+        while tempHead:
+            temp = tempHead.next
+            tempHead.next = prev
+            prev = tempHead
+            tempHead = temp
         
-        while left and right:
-           left_next, right_next = left.next, right.next
-           right.next = left_next
-           left.next = right
-           left, right = left_next, right_next
-
+        l1, l2 = head, prev
+        while l1 and l2:
+            l1_temp, l2_temp = l1.next, l2.next
+            l2.next = l1_temp
+            l1.next = l2
+            l1, l2 = l1_temp, l2_temp
