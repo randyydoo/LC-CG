@@ -56,7 +56,7 @@
 ## Trees
 | # | Problem | Solution | Difficulty | Hint |
 |---| ------- | -------- | ---------- | ------------ |
-|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./easy/MaxDepthBinaryTree.py) | Easy | Swap nodes the recurse |
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./easy/MaxDepthBinaryTree.py) | Easy | Iteraive BFS with stack |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./easy/InvertTree.py) | Easy | Swap nodes the recurse |
 
 
