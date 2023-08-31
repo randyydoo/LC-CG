@@ -7,10 +7,11 @@
 2. [Stack](#stack)
 3. [Linked List](#linked-list)
 4. [Trees](#trees)
-5. [Binary Search](#binary-search)
-6. [Two Pointer](#two-pointer)
-7. [Matrix](#matrix)
-8. [Sliding Window](#sliding-window)
+5. [Dynamic Programing](#dp)
+6. [Binary Search](#binary-search)
+7. [Two Pointer](#two-pointer)
+8. [Matrix](#matrix)
+9. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
 | Problem | Solution | Difficulty | Hint |
@@ -52,6 +53,7 @@
 |[Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./medium/CopyListWithRandomPointer.py) | Medium | Map old node to new node |
 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./easy/LinkedListCycle.py) | Easy | Use slow and fast pointer to check for overlap |
 |[Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./medium/ReorderList.py) | Medium | Find middle using 2 ptr, reverse list end -> middle, merge | 
+|[Remove K from List](https://app.codesignal.com/interview-practice/question/gX7NXPBrYThXZuanm/description) | [Python](./code-signal/removedKFromList.py) | Medium | check for curr.next.next and return head if head.val != k | 
 
 ## Trees
 | Problem | Solution | Difficulty | Hint |
@@ -59,6 +61,11 @@
 |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./easy/MaxDepthBinaryTree.py) | Easy | Iteraive BFS with stack |
 |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./easy/InvertTree.py) | Easy | Swap nodes the recurse |
 |[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](./easy/DiameterBinaryTree.py) | Easy | DFS and check for max(left+right+1,max(left,right)) |
+
+## dp
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Array Max Consective Sum](https://app.codesignal.com/interview-practice/question/dQD4TCunke2JQ98rj/description) | [Python](./code-signal/maxConsecutiveSum2.py) | Medium | Keep track of curr max and global max and use kadones algorithm |
 
 
 ## Binary Search
@@ -95,3 +102,5 @@
 |[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./easy/BestTimeBuyStock.py) | Easy | Keep track of highest |
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
 |[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Python](./medium/PermutationInString.py) | Medium | Sliding window | 
+|[Find Longest Subarray By Sum](https://app.codesignal.com/interview-practice/question/izLStwkDr5sMS9CEm/description)| [Python](./code-signal/findLongestSubarrayBySum.py) | Medium | increase window size until sum > target then minimize left side of window until > target | 
+
