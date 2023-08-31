@@ -7,7 +7,7 @@
 2. [Stack](#stack)
 3. [Linked List](#linked-list)
 4. [Trees](#trees)
-5. [Dynamic Programing](#dp)
+5. [Dynamic Programing](#dynamic-programming)
 6. [Binary Search](#binary-search)
 7. [Two Pointer](#two-pointer)
 8. [Matrix](#matrix)
@@ -62,7 +62,7 @@
 |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./easy/InvertTree.py) | Easy | Swap nodes the recurse |
 |[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](./easy/DiameterBinaryTree.py) | Easy | DFS and check for max(left+right+1,max(left,right)) |
 
-## dp
+## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Array Max Consective Sum](https://app.codesignal.com/interview-practice/question/dQD4TCunke2JQ98rj/description) | [Python](./code-signal/maxConsecutiveSum2.py) | Medium | Keep track of curr max and global max and use kadones algorithm |
