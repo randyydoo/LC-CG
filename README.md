@@ -74,7 +74,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | Set temp ans to top of list and binary search | 
-|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./medium/BinarySearch.py) | Medium | Keep start and end pointers | 
+|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./medium/BinarySearch.py) | Medium | Update left and right pointers to [(right + left) // 2] +/- 1 | 
 |[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)| [Python](./medium/KokoEatingBananas.py) | Medium | Binary search and keep track of amount of bannas ate |
 |[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)| [Python](./medium/TimeBasedKey-ValueStore.py) | Medium | Map key to list of lists and binary search(left = 0, right = length of key)) |
 
