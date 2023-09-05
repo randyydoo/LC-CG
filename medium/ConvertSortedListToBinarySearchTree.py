@@ -22,7 +22,7 @@ class Solution:
                 return None
 
             mid = (left + right) // 2
-            print(left,right, mid)
+
             root = TreeNode(lst[mid])
             root.left = helper(left, mid-1)
             root.right = helper(mid+1,right)
