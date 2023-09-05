@@ -54,7 +54,7 @@
 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./easy/LinkedListCycle.py) | Easy | Use slow and fast pointer to check for overlap |
 |[Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./medium/ReorderList.py) | Medium | Find middle using 2 ptr, reverse list end -> middle, merge | 
 |[Remove K from List](https://app.codesignal.com/interview-practice/question/gX7NXPBrYThXZuanm/description) | [Python](./code-signal/removedKFromList.py) | Medium | check for curr.next.next and return head if head.val != k | 
-|[Remove Duplicates From Sorted Linked List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./easy/RemoveDuplicatesFromSortedList.py) | Easy | Keep track of next node |
+|[Remove Duplicates From Sorted Linked List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./easy/RemoveDuplicatesFromSortedList.py) | Easy | Keep track of next node and check if curr.next |
 
 
 ## Trees
