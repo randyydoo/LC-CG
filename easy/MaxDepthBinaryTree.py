@@ -9,12 +9,14 @@ class Solution:
         if not root:
             return 0
 
-        ans, stack =  1, [[root,1]]
+        def dfs(node):
 
-        while stack:
-            node, height = stack.pop()
-            ans = max(ans,height)
-            stack.append([node.left, height+1]) if node.left else None
-            stack.append([node.right, height+1]) if node.right else None
+            if not node:
+                return 0
+
+            left = dfs(node.left)
+            right = dfs(node.right)
         
-        return ans
+            return 1 + max(left, right)
+
+        return dfs(root)
