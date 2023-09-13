@@ -65,8 +65,7 @@
 |[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](./easy/DiameterBinaryTree.py) | Easy | DFS and check for max(left+right+1,max(left,right)) |
 |[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](./easy/BalancedBinaryTree.py) | Easy | Create bool variable for ans, dfs and check if max(left,right) - min(left,right) > 1, change ans |
 |[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](./easy/SameTree.py) | Easy | dfs and append to 2 lists |
-|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./easy/SubtreeofAnotherTree.py
-) | Easy | dfs until root.val == subRoot.val and use helper function for same tree |
+|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./easy/SubtreeofAnotherTree.py) | Easy | dfs until root.val == subRoot.val and use helper function for same tree |
 
 
 ## Dynamic Programming
