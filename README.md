@@ -1,22 +1,3 @@
-<h1 align="center">
- Leetcode🫡
-</h1>
-
-## Table of Contents
-1. [Mapping & Arrays](#mapping-&-arrays)
-2. [Stack](#stack)
-3. [Linked List](#linked-list)
-4. [Trees](#trees)
-5. [Dynamic Programing](#dynamic-programming)
-6. [Binary Search](#binary-search)
-7. [Two Pointer](#two-pointer)
-8. [Matrix](#matrix)
-9. [Sliding Window](#sliding-window)
-
-## Mapping & Arrays
-| Problem | Solution | Difficulty | Hint |
-| ------- | -------- | ---------- | ------------ |
-|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/TwoSum.py) | Easy | Check for diff and map value to index |
 |[Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/RomanToInteger.py) [C++](./easy/RomanToInteger.cpp) | Easy | Map Roman to Int | 
 |[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./easy/RemoveElement.py) | Easy | Keep track of num of elements not in nums | 
 |[Find the Index of First Occurence in String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/FindIndexOfFirstOccurence.py) | Easy | Slicing | 
@@ -80,7 +61,7 @@
 ## Binary Search
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
-|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./medium/BinarySearch.py) | Easy | Update left and right pointers to [(right + left) // 2] +/- 1 | 
+|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./easy/BinarySearch.py) | Easy | Create left,right, and middle pointer | 
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | Set temp ans to top of list and binary search | 
 |[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)| [Python](./medium/KokoEatingBananas.py) | Medium | Binary search and keep track of amount of bannas ate |
 |[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)| [Python](./medium/TimeBasedKey-ValueStore.py) | Medium | Map key to list of lists and binary search(left = 0, right = length of key)) |
