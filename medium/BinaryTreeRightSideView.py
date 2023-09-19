@@ -6,9 +6,7 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        if not root:
-            return []
-        def update(q, length):
+        def bfs(q, length):
             for i in range(length):
                 node = q.popleft()
                 
@@ -17,18 +15,13 @@ class Solution:
 
             return q
 
-        right_q = deque([root.right]) if root.right else deque([])
-        left_q = deque([root.left]) if root.left else deque([])
-        ans = [root.val]
+        q = deque([root]) if root else deque([])
+        ans = []
 
-        while right_q or left_q:
-            if len(right_q) > 0:
-                node = right_q[-1]
-            else:
-                node = left_q[-1]
+        while q:
+            node = q[-1]
             ans.append(node.val) if node else None
 
-            right_q = update(right_q, len(right_q))        
-            left_q = update(left_q, len(left_q))
+            q = bfs(q, len(q))        
 
         return ans
