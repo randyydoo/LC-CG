@@ -7,11 +7,12 @@
 2. [Stack](#stack)
 3. [Linked List](#linked-list)
 4. [Trees](#trees)
-5. [Dynamic Programing](#dynamic-programming)
-6. [Binary Search](#binary-search)
-7. [Two Pointer](#two-pointer)
-8. [Matrix](#matrix)
-9. [Sliding Window](#sliding-window)
+5. [Graphs](#graphs)
+6. [Dynamic Programing](#dynamic-programming)
+7. [Binary Search](#binary-search)
+8. [Two Pointer](#two-pointer)
+9. [Matrix](#matrix)
+10. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
 | Problem | Solution | Difficulty | Hint |
@@ -71,6 +72,11 @@
 |[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./medium/BinaryTreeRightSideView.py) | Medium | Create left and right deque and append from end of deque |
 |[Count Good Noes in Binary Tree ](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](./medium/CountGoodNodesinBinaryTree.py) | Medium | DFS and keep track of curr max |
 
+
+## Graphs
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./-medium/NumberOfIslands.py) | Medium | DFS and change '1' to random char | 
 
 ## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
