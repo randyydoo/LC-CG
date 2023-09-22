@@ -56,6 +56,7 @@
 |[Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./medium/ReorderList.py) | Medium | Find middle using 2 ptr, reverse list end -> middle, merge | 
 |[Remove K from List](https://app.codesignal.com/interview-practice/question/gX7NXPBrYThXZuanm/description) | [Python](./code-signal/removedKFromList.py) | Medium | check for curr.next.next and return head if head.val != k | 
 |[Convert Sorted Linked List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [Python](./medium/ConvertSortedListToBinarySearchTree.py) | Medium | Create list of vals and dfs helper function |
+|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)| [Python](./medium/SplitLinkedListInParts.py) | Medium | Get length of list and append to ans when part size hit |
 |[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./hard/MergeKSortedLists.py) | Hard | Create helper function to merge 2 lists and merge first list with rest |
 
 ## Trees
