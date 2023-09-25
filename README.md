@@ -75,6 +75,7 @@
 |[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./medium/BinaryTreeRightSideView.py) | Medium | Create left and right deque and append from end of deque |
 |[Count Good Noes in Binary Tree ](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](./medium/CountGoodNodesinBinaryTree.py) | Medium | DFS and keep track of curr max |
 |[Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./medium/KthSmallestBST.py) | Medium | DFS to append to list and use sorted OR in order DFS and decrement k |
+|[Binary Tree Maximum Sum](https://leetcode.com/problems/binary-tree-maximum-sum/) | [Python](./hard/MaxPathSumBinaryTree.py) | Hard | DFS and compare left and right recursive calls with max(0,left or right) to get edge case of root itself being max |
 
 
 ## Graphs
