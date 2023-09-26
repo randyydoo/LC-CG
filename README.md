@@ -7,12 +7,13 @@
 2. [Stack](#stack)
 3. [Linked List](#linked-list)
 4. [Trees](#trees)
-5. [Graphs](#graphs)
-6. [Dynamic Programing](#dynamic-programming)
-7. [Binary Search](#binary-search)
-8. [Two Pointer](#two-pointer)
-9. [Matrix](#matrix)
-10. [Sliding Window](#sliding-window)
+5. [Backtracking](#backtracking)
+6. [Graphs](#graphs)
+7. [Dynamic Programing](#dynamic-programming)
+8. [Binary Search](#binary-search)
+9. [Two Pointer](#two-pointer)
+10. [Matrix](#matrix)
+11. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
 | Problem | Solution | Difficulty | Hint |
@@ -76,6 +77,13 @@
 |[Count Good Noes in Binary Tree ](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](./medium/CountGoodNodesinBinaryTree.py) | Medium | DFS and keep track of curr max |
 |[Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./medium/KthSmallestBST.py) | Medium | DFS to append to list and use sorted OR in order DFS and decrement k |
 |[Binary Tree Maximum Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](./hard/MaxPathSumBinaryTree.py) | Hard | DFS and compare left and right recursive calls with max(0,left or right) to get edge case of root itself being max |
+
+
+## Backtracking
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Backtracking](https://leetcode.com/problems/subsets/) | [Python](./medium/subsets.py) | Medium | DFS use stack to take care of 'dont include' descison | 
+
 
 
 ## Graphs
