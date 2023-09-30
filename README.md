@@ -63,6 +63,7 @@
 ## Trees
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
+|[Bianry Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Python](./easy/BinaryTreePaths.py) | Easy | DFS and checkk if not root.left and not root.right | 
 |[Mode in BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./easy/ModeBST.py) | Easy | DFS and map frequency | 
 |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./easy/MaxDepthBinaryTree.py) | Easy | recursive dfs and return 1 + max of left and right subtree |
 |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./easy/InvertTree.py) | Easy | Swap nodes the recurse |
