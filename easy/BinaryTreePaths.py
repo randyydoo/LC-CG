@@ -9,13 +9,12 @@ class Solution:
         ans = []
         def dfs(root, s):
             nonlocal ans
-            if root and not root.left and not root.right:
+            if not root:
+                return 
+                
+            elif not root.left and not root.right:
                 s += f"{root.val}"
                 ans.append(s)
-                return
-
-            elif not root:
-                return 
 
             s += f"{root.val}->"
             dfs(root.left,s)
