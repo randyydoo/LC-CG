@@ -93,7 +93,7 @@
 ## Graphs
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
-|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./-medium/NumberOfIslands.py) | Medium | DFS and change '1' to random char | 
+|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./medium/NumberOfIslands.py) | Medium | DFS and change '1' to random char | 
 
 ## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
