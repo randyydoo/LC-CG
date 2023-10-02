@@ -87,6 +87,8 @@
 | ------- | -------- | ---------- | ------------ |
 |[Subsets](https://leetcode.com/problems/subsets/) | [Python](./medium/subsets.py) | Medium | DFS use stack to take care of 'dont include' descison | 
 |[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./medium/CombinationSum.py) | Medium | DFS until index > lenth or sum(stack) == target or sum(stack) > target |
+|[ Word Search ](https://leetcode.com/problems/word-search/) | [Python](./medium/WordSearch.py) | Medium | DFS and keep track of visited and replace board with original values once depth reached |
+
 
 
 
