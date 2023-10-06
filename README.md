@@ -74,6 +74,7 @@
 |[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](./easy/SameTree.py) | Easy | dfs and append to 2 lists |
 |[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./easy/SubtreeofAnotherTree.py) | Easy | dfs until root.val == subRoot.val and use helper function for same tree |
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./medium/LowestCommonAncestorBST.py) | Medium | DFS until split (root > p.val and root <  q.val (vise versa)) |
+|[Path Sum ll](https://leetcode.com/problems/path-sum-ii/) | [Python](./medium/PathSum2.py) | Medium | DFS with stack and check when sum(stack) = target |
 |[Symetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./medium/SymetricTree.py) | Medium | DFS with invert recursive call |
 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./medium/BinaryTreeLevelOrderTraversal.py) | Medium | BFS |
 |[Maximum Level Sum of Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Python](./medium/MaxLevelSumBinaryTree.py) | Easy | DFS and checkk if not root.left and not root.right | 
