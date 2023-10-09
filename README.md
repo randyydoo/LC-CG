@@ -66,7 +66,7 @@
 | ------- | -------- | ---------- | ------------ |
 |[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./easy/DFS.py) | Easy | DFS | 
 |[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./easy/BinaryTreePostTraversal.py) | Easy | Recrusive DFS or use stack and BFS iterativly and return reversed list | 
-|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Python](./easy/CountCompleteNodes.py) | Easy | BFS and add by length of queue | 
+|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Python](./easy/CountGoodNodes.py) | Easy | BFS and add by length of queue | 
 |[Bianry Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Python](./easy/BinaryTreePaths.py) | Easy | DFS and checkk if not root.left and not root.right | 
 |[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./easy/PathSum.py) | Easy | DFS and keep track of current sum | 
 |[Mode in BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./easy/ModeBST.py) | Easy | DFS and map frequency | 
