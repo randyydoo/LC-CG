@@ -78,6 +78,7 @@
 |[Path Sum ll](https://leetcode.com/problems/path-sum-ii/) | [Python](./medium/PathSum2.py) | Medium | DFS with stack and check when sum(stack) = target |
 |[Symetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./medium/SymetricTree.py) | Medium | DFS with invert recursive call |
 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./medium/BinaryTreeLevelOrderTraversal.py) | Medium | BFS |
+|[Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./medium/BinaryTreeZigZag.py) | Medium | BFS and use list slcing to reverse |
 |[Maximum Level Sum of Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Python](./medium/MaxLevelSumBinaryTree.py) | Easy | DFS and checkk if not root.left and not root.right | 
 |[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./medium/ValidateBST.py) | Medium | DFS and keep track of curr min and max |
 |[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./medium/BinaryTreeRightSideView.py) | Medium | Create left and right deque and append from end of deque |
