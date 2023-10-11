@@ -84,7 +84,7 @@
 |[Path Sum lll](https://leetcode.com/problems/path-sum-iii/) | [Python](./medium/PathSum3.py) | Medium | Brute force and get sum of every root |
 |[Symetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./medium/SymetricTree.py) | Medium | DFS with invert recursive call |
 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./medium/BinaryTreeLevelOrderTraversal.py) | Medium | BFS |
-|[Kth Largest Sum Binary Tree ](https://leetcode.com/problems/kth-largest-sum-in-a-binary/) | [Python](./medium/KthLargestSumBinaryTree.py) | Medium | BFS |
+|[Kth Largest Sum Binary Tree ](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | [Python](./medium/KthLargestSumBinaryTree.py) | Medium | BFS |
 |[Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./medium/BinaryTreeZigZag.py) | Medium | BFS and use list slcing to reverse |
 |[Maximum Level Sum of Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Python](./medium/MaxLevelSumBinaryTree.py) | Easy | DFS and checkk if not root.left and not root.right | 
 |[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./medium/ValidateBST.py) | Medium | DFS and keep track of curr min and max |
