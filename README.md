@@ -131,7 +131,7 @@
 | ------- | -------- | ---------- | ------------ |
 |[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/int_palindrome.py) [C++](./easy/PalindromeNumber.cpp) | Easy | Cast to string and 2 pointer | 
 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./easy/LongestCommonPrefix.py) | Easy | Create helper function to compare with first string in list |
-|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./easy/RemoveDuplicatesFromSortedArray.py) | Easy | Recursion or 2 pointer |
+|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./easy/RemoveDuplicatedFromSortedArray.py) | Easy | Recursion or 2 pointer |
 |[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./medium/ContainerMostWater.py) | Medium | Two pointer  |
 |[Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./medium/TwoSum2.py) | Medium | Two pointer | 
 |[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./hard/TrappingRainWater.py) | Hard | 2 Pointer and keep track of left and right max |
