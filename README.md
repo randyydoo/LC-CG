@@ -7,13 +7,14 @@
 2. [Stack](#stack)
 3. [Linked List](#linked-list)
 4. [Trees](#trees)
-5. [Backtracking](#backtracking)
-6. [Graphs](#graphs)
-7. [Dynamic Programing](#dynamic-programming)
-8. [Binary Search](#binary-search)
-9. [Two Pointer](#two-pointer)
-10. [Matrix](#matrix)
-11. [Sliding Window](#sliding-window)
+5. [Tries](#tries)
+6. [Backtracking](#backtracking)
+7. [Graphs](#graphs)
+8. [Dynamic Programing](#dynamic-programming)
+9. [Binary Search](#binary-search)
+10. [Two Pointer](#two-pointer)
+11. [Matrix](#matrix)
+12. [Sliding Window](#sliding-window)
 
 ## Mapping & Arrays
 | Problem | Solution | Difficulty | Hint |
@@ -95,6 +96,13 @@
 |[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [Python](./medium/MaximumBinaryTree.py) | Medium | Get max of nums -> -> dfs with left and right subarray |
 |[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [Python](./medium/PrintBinaryTree.py) | Medium | Get height -> create matrix -> dfs |
 |[Binary Tree Maximum Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](./hard/MaxPathSumBinaryTree.py) | Hard | DFS and compare left and right recursive calls with max(0,left or right) to get edge case of root itself being max |
+
+
+## Tries
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Implement Tries (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./medium/ImplementTrie.py) | Medium | Create node class f of hashmap to map each char to a unique path |
+
 
 
 ## Backtracking
