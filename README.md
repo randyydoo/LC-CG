@@ -102,7 +102,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Implement Tries (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./medium/ImplementTrie.py) | Medium | Create node class of hashmap to map each char to a unique path |
-|[Design Add and Search Words Data StructureS](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Python](./medium/DesignDict.py) | Medium | Create node class of hashmap and dfs for search (explore all paths if char == '.') |
+|[Design Add and Search Words Data Structures](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Python](./medium/DesignDict.py) | Medium | Create node class of hashmap and dfs for search (explore all paths if char == '.') |
 
 
 
