@@ -110,6 +110,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Subsets](https://leetcode.com/problems/subsets/) | [Python](./medium/subsets.py) | Medium | DFS use stack to take care of 'dont include' descison | 
+|[Subsets ll](https://leetcode.com/problems/subsets-ii/) | [Python](./medium/Subsets2.py) | Medium | DFS use stack to take care of 'dont include' descison and use set to store ans | 
 |[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./medium/Genparent.py) | Medium | DFS  -> compare open with n -> compare open with closed |
 |[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./medium/CombinationSum.py) | Medium | DFS until index > lenth or sum(stack) == target or sum(stack) > target |
 |[Word Search](https://leetcode.com/problems/word-search/) | [Python](./medium/WordSearch.py) | Medium | DFS and keep track of visited and replace board with original values once depth reached |
