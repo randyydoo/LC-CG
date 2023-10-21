@@ -127,6 +127,7 @@
 ## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
+|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./easy/ClimbingStairs.py) | Easy | Bottom up and find sum of previous 2 steps |
 |[Array Max Consective Sum](https://app.codesignal.com/interview-practice/question/dQD4TCunke2JQ98rj/description) | [Python](./code-signal/maxConsecutiveSum2.py) | Medium | Keep track of curr max and global max and use kadones algorithm |
 
 
