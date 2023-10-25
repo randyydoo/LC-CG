@@ -84,6 +84,7 @@
 |[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](./easy/SameTree.py) | Easy | dfs and append to 2 lists |
 |[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./easy/SubtreeofAnotherTree.py) | Easy | dfs until root.val == subRoot.val and use helper function for same tree |
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./medium/LowestCommonAncestorBST.py) | Medium | DFS until split (root > p.val and root <  q.val (vise versa)) |
+|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./medium/SumRootToLeafNumbers.py) | Medium | DFS and keep track of int with str |
 |[Path Sum ll](https://leetcode.com/problems/path-sum-ii/) | [Python](./medium/PathSum2.py) | Medium | DFS with stack and check when sum(stack) = target |
 |[Path Sum lll](https://leetcode.com/problems/path-sum-iii/) | [Python](./medium/PathSum3.py) | Medium | Brute force and get sum of every root |
 |[Symetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./medium/SymetricTree.py) | Medium | DFS with invert recursive call |
