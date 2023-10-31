@@ -128,6 +128,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./medium/NumberOfIslands.py) | Medium | DFS and change '1' to random char | 
+|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
 
 ## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
