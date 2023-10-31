@@ -114,7 +114,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Subsets](https://leetcode.com/problems/subsets/) | [Python](./medium/subsets.py) | Medium | DFS use stack to take care of 'dont include' descison | 
-|[Subsets ll](https://leetcode.com/problems/subsets-ii/) | [Python](./medium/Subset2.py) | Medium | DFS use stack to take care of 'dont include' descison and use set to store ans | 
+|[Subsets ll](https://leetcode.com/problems/subsets-ii/) | [Python](./medium/Subset2.py) | Medium | Sort -> dfs and do not include duplicates in choices |
 |[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./medium/Genparent.py) | Medium | DFS  -> compare open with n -> compare open with closed |
 |[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./medium/CombinationSum.py) | Medium | DFS until index > lenth or sum(stack) == target or sum(stack) > target |
 |[Combination Sum ll](https://leetcode.com/problems/combination-sum-ii/) | [Python](./medium/CombinationSum2.py) | Medium | Sort list -> dfs backtrack -> skip over duplicates |
