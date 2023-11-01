@@ -92,7 +92,7 @@
 |[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./medium/LargestValueinTreeRow.py) | Medium | BFS |
 |[Kth Largest Sum Binary Tree ](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | [Python](./medium/KthLargestSumBinaryTree.py) | Medium | BFS |
 |[Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./medium/BinaryTreeZigZag.py) | Medium | BFS and use list slcing to reverse |
-|[Maximum Level Sum of Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Python](./medium/MaxLevelSumBinaryTree.py) | Easy | DFS and checkk if not root.left and not root.right | 
+|[Maximum Level Sum of Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Python](./medium/MaxLevelSumBinaryTree.py) | Easy | DFS and check if not root.left and not root.right | 
 |[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./medium/ValidateBST.py) | Medium | DFS and keep track of curr min and max |
 |[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./medium/BinaryTreeRightSideView.py) | Medium | Create left and right deque and append from end of deque |
 |[Count Good Noes in Binary Tree ](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](./medium/CountGoodNodesinBinaryTree.py) | Medium | DFS and keep track of curr max |
