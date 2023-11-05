@@ -132,6 +132,7 @@
 |[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](./medium/MaxAreaIsland.py) | Medium | DFS use list to store counts to avoid counter resetting |
 |[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Python](./medium/PacificAtlanticWaterFlow.py) | Medium | Find paths for atlantic and pacific and store in a set |
 |[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./medium/SurroundedRegions.py) | Medium | Find invalid regions using dfs and store in a set -> find valid replacements going through orginal board |
+|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./medium/RottingOranges.py) | Medium | BFS and check neighbors |
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
 
 ## Dynamic Programming
