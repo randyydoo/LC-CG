@@ -5,16 +5,17 @@
 ## Table of Contents
 1. [Mapping & Arrays](#mapping-&-arrays)
 2. [Stack](#stack)
-3. [Linked List](#linked-list)
-4. [Trees](#trees)
-5. [Tries](#tries)
-6. [Backtracking](#backtracking)
-7. [Graphs](#graphs)
-8. [Dynamic Programing](#dynamic-programming)
-9. [Binary Search](#binary-search)
-10. [Two Pointer](#two-pointer)
-11. [Matrix](#matrix)
-12. [Sliding Window](#sliding-window)
+3. [Two Pointer](#two-pointer)
+4. [Binary Search](#binary-search)
+5. [Matrix](#matrix)
+6. [Sliding Window](#sliding-window)
+7. [Linked List](#linked-list)
+8. [Trees](#trees)
+9. [Tries](#tries)
+10. [Heap & Priority Queue](#heap-&-priority-queue)
+11. [Backtracking](#backtracking)
+12. [Graphs](#graphs)
+13. [Dynamic Programing](#dynamic-programming)
 
 ## Mapping & Arrays
 | Problem | Solution | Difficulty | Hint |
@@ -47,6 +48,47 @@
 |[Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./medium/MinStack.py) | Medium | Blank |
 |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)| [Python](./medium/DailyTemperatures.py) | Medium | Create stack of index,value to get duplicate temperatures | 
 |[Car Fleet](https://leetcode.com/problems/car-fleet/)| [Python](./medium/CarFleet.py) | Medium | Create list of pos and speed then reverse list to get distance (target - pos)/speed | 
+
+## Two Pointer
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/int_palindrome.py) [C++](./easy/PalindromeNumber.cpp) | Easy | Cast to string and 2 pointer | 
+|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./easy/LongestCommonPrefix.py) | Easy | Create helper function to compare with first string in list |
+|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./easy/RemoveDuplicatedFromSortedArray.py) | Easy | Recursion or 2 pointer |
+|[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./medium/ContainerMostWater.py) | Medium | Two pointer  |
+|[Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./medium/TwoSum2.py) | Medium | Two pointer | 
+|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./hard/TrappingRainWater.py) | Hard | 2 Pointer and keep track of left and right max |
+
+## Binary Search
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./easy/BinarySearch.py) | Easy | Create left,right, and middle pointer | 
+|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./medium/Search2DMatrix.py) | Medium | Find row by comparing 0th and -1th index -> regular binary search on row | 
+|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | If right pointer greater than curr pointer move window down |
+|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./medium/SearchInRotatedSortedArray.py) | Medium | Check left -> mid and mid -> bounds to see if sorted |
+|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)| [Python](./medium/KokoEatingBananas.py) | Medium | Binary search and keep track of amount of bannas ate |
+|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)| [Python](./medium/TimeBasedKey-ValueStore.py) | Medium | Map key to list of lists and binary search(left = 0, right = length of key)) |
+
+
+## Matrix
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [Python](./easy/MatrixDiagonalSum.py) [C++](./easy/MatrixDiagonalSum.cpp) | Easy | Two pointer | 
+|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./medium/ValidSudoku.py) | Medium | Map with R, C, and 3x3 |
+|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./medium/SpiralMatrix.py) | Medium | Keep track of L,R,T,B | 
+|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./medium/SetMatrixZeroes.py) | Medium | Create set for rows and cols with zeros | 
+|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./medium/SearchA2DMatrix.py) | Medium | Binary Search | 
+|[Rotate Matrix 90 Degrees](https://app.codesignal.com/interview-practice/question/5A8jwLGcEpTPyyjTB/description) | [Python](./code-signal/rotateImage.py) | Medium | Take transpose then go through range n//2 then swap [i][j], [j][i] <-> [i][n-j], [i][j] | 
+
+
+## Sliding Window
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./easy/BestTimeBuyStock.py) | Easy | Keep track of highest |
+|[Maximum Average Subarray l](https://leetcode.com/problems/maximum-average-subarray-i/)| [Python](./easy/MaxSubarrayl.py) | Easy | Find max sum -> return max_sum/k |
+|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
+|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Python](./medium/PermutationInString.py) | Medium | Sliding window | 
+|[Find Longest Subarray By Sum](https://app.codesignal.com/interview-practice/question/izLStwkDr5sMS9CEm/description)| [Python](./code-signal/findLongestSubarrayBySum.py) | Medium | increase window size until sum > target then minimize left side of window until > target | 
 
 
 ## Linked List
@@ -109,6 +151,10 @@
 |[Implement Tries (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./medium/ImplementTrie.py) | Medium | Create node class of hashmap to map each char to a unique path |
 |[Design Add and Search Words Data Structures](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Python](./medium/DesignDict.py) | Medium | Create node class of hashmap and dfs for search (explore all paths if char == '.') |
 
+## Heap & Priority Queue
+| Problem | Solution | Difficulty | Hint |
+| ------- | -------- | ---------- | ------------ |
+|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python](./easy/kthLargestStream.py) | Easy | Keep min heap size of k and return root |
 
 
 ## Backtracking
@@ -144,46 +190,5 @@
 |[Array Max Consective Sum](https://app.codesignal.com/interview-practice/question/dQD4TCunke2JQ98rj/description) | [Python](./code-signal/maxConsecutiveSum2.py) | Medium | Keep track of curr max and global max and use kadones algorithm |
 
 
-## Binary Search
-| Problem | Solution | Difficulty | Hint |
-| ------- | -------- | ---------- | ------------ |
-|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./easy/BinarySearch.py) | Easy | Create left,right, and middle pointer | 
-|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./medium/Search2DMatrix.py) | Medium | Find row by comparing 0th and -1th index -> regular binary search on row | 
-|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | If right pointer greater than curr pointer move window down |
-|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./medium/SearchInRotatedSortedArray.py) | Medium | Check left -> mid and mid -> bounds to see if sorted |
-|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)| [Python](./medium/KokoEatingBananas.py) | Medium | Binary search and keep track of amount of bannas ate |
-|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)| [Python](./medium/TimeBasedKey-ValueStore.py) | Medium | Map key to list of lists and binary search(left = 0, right = length of key)) |
 
-
-## Two Pointer
-| Problem | Solution | Difficulty | Hint |
-| ------- | -------- | ---------- | ------------ |
-|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/int_palindrome.py) [C++](./easy/PalindromeNumber.cpp) | Easy | Cast to string and 2 pointer | 
-|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./easy/LongestCommonPrefix.py) | Easy | Create helper function to compare with first string in list |
-|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./easy/RemoveDuplicatedFromSortedArray.py) | Easy | Recursion or 2 pointer |
-|[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./medium/ContainerMostWater.py) | Medium | Two pointer  |
-|[Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./medium/TwoSum2.py) | Medium | Two pointer | 
-|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./hard/TrappingRainWater.py) | Hard | 2 Pointer and keep track of left and right max |
-
-
-## Matrix
-| Problem | Solution | Difficulty | Hint |
-| ------- | -------- | ---------- | ------------ |
-|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [Python](./easy/MatrixDiagonalSum.py) [C++](./easy/MatrixDiagonalSum.cpp) | Easy | Two pointer | 
-|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./medium/ValidSudoku.py) | Medium | Map with R, C, and 3x3 |
-|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./medium/SpiralMatrix.py) | Medium | Keep track of L,R,T,B | 
-|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./medium/SetMatrixZeroes.py) | Medium | Create set for rows and cols with zeros | 
-|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./medium/SearchA2DMatrix.py) | Medium | Binary Search | 
-|[Rotate Matrix 90 Degrees](https://app.codesignal.com/interview-practice/question/5A8jwLGcEpTPyyjTB/description) | [Python](./code-signal/rotateImage.py) | Medium | Take transpose then go through range n//2 then swap [i][j], [j][i] <-> [i][n-j], [i][j] | 
-
-
-
-## Sliding Window
-| Problem | Solution | Difficulty | Hint |
-| ------- | -------- | ---------- | ------------ |
-|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./easy/BestTimeBuyStock.py) | Easy | Keep track of highest |
-|[Maximum Average Subarray l](https://leetcode.com/problems/maximum-average-subarray-i/)| [Python](./easy/MaxSubarrayl.py) | Easy | Find max sum -> return max_sum/k |
-|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
-|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Python](./medium/PermutationInString.py) | Medium | Sliding window | 
-|[Find Longest Subarray By Sum](https://app.codesignal.com/interview-practice/question/izLStwkDr5sMS9CEm/description)| [Python](./code-signal/findLongestSubarrayBySum.py) | Medium | increase window size until sum > target then minimize left side of window until > target | 
 
