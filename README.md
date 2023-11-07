@@ -155,6 +155,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python](./easy/kthLargestStream.py) | Easy | Keep min heap size of k and return root |
+|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | [Python](./medium/SeatReservationManager.py) | Medium | Min heap |
 
 
 ## Backtracking
@@ -169,8 +170,6 @@
 |[Permutations](https://leetcode.com/problems/permutations/) | [Python](./medium/permutations.py) | Medium | Keep track of choices with boolean list size of nums |
 
 
-
-
 ## Graphs
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
@@ -181,6 +180,7 @@
 |[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./medium/RottingOranges.py) | Medium | BFS and check neighbors |
 |[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./medium/CourseSchedule.py) | Medium | BFS topological sort |
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
+
 
 ## Dynamic Programming
 | Problem | Solution | Difficulty | Hint |
