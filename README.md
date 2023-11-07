@@ -157,6 +157,7 @@
 | ------- | -------- | ---------- | ------------ |
 |[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python](./easy/kthLargestStream.py) | Easy | Keep min heap size of k and return root |
 |[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | [Python](./medium/SeatReservationManager.py) | Medium | Min heap |
+|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/) | [Python](./medium/MaxNumMonsters.py) | Medium | Use min heap and push when monster will arrive to city by dist[i]/spped[i] |
 
 
 ## Backtracking
