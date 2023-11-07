@@ -12,7 +12,7 @@
 7. [Linked List](#linked-list)
 8. [Trees](#trees)
 9. [Tries](#tries)
-10. [Heap & Priority Queue](#heap-&-priority-queue)
+10. [Heap & Priority Queue](#heap-and-priority-queue)
 11. [Backtracking](#backtracking)
 12. [Graphs](#graphs)
 13. [Dynamic Programing](#dynamic-programming)
