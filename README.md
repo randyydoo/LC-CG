@@ -159,6 +159,7 @@
 |[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | [Python](./medium/SeatReservationManager.py) | Medium | Min heap |
 |[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/) | [Python](./medium/MaxNumMonsters.py) | Medium | Use min heap and push when monster will arrive to city by dist[i]/spped[i] |
 |[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./medium/LastStoneWeight.py) | Medium | Max heap |
+|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./medium/ClosestPointsOrigin.py) | Medium | Min heap with tuple |
 
 
 ## Backtracking
