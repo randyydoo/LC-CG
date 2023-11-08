@@ -38,6 +38,7 @@
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [Python](./medium/TopKFrequentElements.py) | Medium | Bubble sort | 
 |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./medium/LongestConsecutiveSeq.py) | Medium | Convert nums to a set and check if start of sequence -> end of sequence | 
 |[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)| [Python](./medium/WinnerofArray.py) | Medium | Compare 0th index continuously |
+|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) | [Python](./medium/LargestAnt.py) | Medium | Find max ant from falling |
 
 
 ## Stack
@@ -160,6 +161,8 @@
 |[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/) | [Python](./medium/MaxNumMonsters.py) | Medium | Use min heap and push when monster will arrive to city by dist[i]/spped[i] |
 |[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./medium/LastStoneWeight.py) | Medium | Max heap |
 |[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./medium/ClosestPointsOrigin.py) | Medium | Min heap with tuple |
+|[K Largest Element in Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | [Python](./medium/KthLargest.py) | Medium | Max heap or sorted |
+
 
 
 ## Backtracking
