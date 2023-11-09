@@ -1,28 +1,26 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        '''  
-        detect cycle
-        '''
-
-        indeg = [0] * numCourses
-        d = {i:[] for i in range(numCourses)}
-        q = collections.deque()
+        graph = collections.defaultdict(list)
 
         for course, req in prerequisites:
-            indeg[course] += 1
-            d[req].append(course)
+            graph[course].append(req)
 
-        for i in range(len(indeg)):
-            if indeg[i] == 0:
-                q.append(i)
+        def dfs(u, v, visited):
+            if u == v or v in visited:
+                return False
+            if v not in graph:
+                return True
 
-        visited = 0
-        while q:
-            vertex = q.popleft()
-            visited += 1
-            for neigh in d[vertex]:
-                indeg[neigh] -= 1
-                if indeg[neigh] == 0:
-                    q.append(neigh)
+            visited.add(v)
+            for neigh in graph[v]:
+                if not dfs(u, neigh, visited):
+                    return  False
+            visited.remove(v)
+            graph[v] = []
+            return True
 
-        return visited == numCourses
+        for course, req in prerequisites:
+            if not dfs(course, req, set()):
+                return False
+
+        return True
