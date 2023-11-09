@@ -187,6 +187,7 @@
 |[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./medium/RottingOranges.py) | Medium | BFS and check neighbors |
 |[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./medium/CourseSchedule.py) | Medium | BFS topological sort |
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
+|[Redundant Connections](https://leetcode.com/problems/redundant-connections/) | [Python](./medium/RedundantConnection.py) | Medium | DFS |
 
 
 ## Dynamic Programming
