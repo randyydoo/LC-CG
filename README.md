@@ -186,6 +186,7 @@
 |[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./medium/SurroundedRegions.py) | Medium | Find invalid regions using dfs and store in a set -> find valid replacements going through orginal board |
 |[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./medium/RottingOranges.py) | Medium | BFS and check neighbors |
 |[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./medium/CourseSchedule.py) | Medium | DFS topological sort |
+|[Course Schedule ll](https://leetcode.com/problems/course-schedule-ii/) | [Python](./medium/CourseSchedule2.py) | Medium | DFS topological sort and check for courses not in prerequisites |
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
 |[Redundant Connections](https://leetcode.com/problems/redundant-connection/) | [Python](./medium/RedundantConnection.py) | Medium | DFS |
 
