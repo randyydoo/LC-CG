@@ -191,6 +191,7 @@
 |[Redundant Connections](https://leetcode.com/problems/redundant-connection/) | [Python](./medium/RedundantConnection.py) | Medium | DFS |
 |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/) | [Python](./medium/RestoreAdjPairs.py) | Medium | Create adj list -> find vertex with outdegree of 1 -> create ans iterativly |
 |[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./hard/WordLadder.py) | Hard | BFS and get possible paths by using temp char to replace current word |
+|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) | [Python](./hard/Dij.py) | Hard | Dijkstra algorithm |
 
 
 ## Dynamic Programming
