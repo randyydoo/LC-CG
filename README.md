@@ -190,6 +190,7 @@
 |[Course Schedule ll](https://leetcode.com/problems/course-schedule-ii/) | [Python](./medium/CourseSchedule2.py) | Medium | DFS topological sort and check for courses not in prerequisites |
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
 |[Redundant Connections](https://leetcode.com/problems/redundant-connection/) | [Python](./medium/RedundantConnection.py) | Medium | DFS |
+|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Python](./medium/NetworkDelayTime.py) | Medium | Dijkstra algorithm |
 |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/) | [Python](./medium/RestoreAdjPairs.py) | Medium | Create adj list -> find vertex with outdegree of 1 -> create ans iterativly |
 |[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./hard/WordLadder.py) | Hard | BFS and get possible paths by using temp char to replace current word |
 |[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) | [Python](./hard/Dij.py) | Hard | Dijkstra algorithm |
