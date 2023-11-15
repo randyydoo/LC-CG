@@ -193,6 +193,7 @@
 |[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Python](./medium/NetworkDelayTime.py) | Medium | Dijkstra algorithm |
 |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/) | [Python](./medium/RestoreAdjPairs.py) | Medium | Create adj list -> find vertex with outdegree of 1 -> create ans iterativly |
 |[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./hard/WordLadder.py) | Hard | BFS and get possible paths by using temp char to replace current word |
+|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python](./hard/LongIncreasingString.py) | Hard | DFS and memoization |
 |[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) | [Python](./hard/Dij.py) | Hard | Dijkstra algorithm |
 
 
