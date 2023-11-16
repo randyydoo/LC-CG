@@ -191,6 +191,7 @@
 |[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./medium/CloneGraph.py) | Medium | Map node to new node -> dfs |
 |[Redundant Connections](https://leetcode.com/problems/redundant-connection/) | [Python](./medium/RedundantConnection.py) | Medium | DFS |
 |[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Python](./medium/NetworkDelayTime.py) | Medium | Dijkstra algorithm |
+|[Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | [Python](./medium/PathMinEffort.py) | Medium | Dijkstra + memo |
 |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/) | [Python](./medium/RestoreAdjPairs.py) | Medium | Create adj list -> find vertex with outdegree of 1 -> create ans iterativly |
 |[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./hard/WordLadder.py) | Hard | BFS and get possible paths by using temp char to replace current word |
 |[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python](./hard/LongIncreasingString.py) | Hard | DFS and memoization |
