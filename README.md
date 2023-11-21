@@ -41,10 +41,7 @@
 |[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)| [Python](./medium/WinnerofArray.py) | Medium | Compare 0th index continuously |
 |[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) | [Python](./medium/LastAnt.py) | Medium | Find max ant from falling |
 |[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | [Python](./medium/Garbage.py) | Medium | Calculate (total time cost) + (trash count) |
-<<<<<<< HEAD
 |[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | [Python](./medium/NicePairs.py) | Medium | Map num-rev : count |
-=======
->>>>>>> parent of 4807f70 (added Count Nice Pairs in an Array)
 
 
 
