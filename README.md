@@ -23,6 +23,7 @@
 |[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/TwoSum.py) | Easy | Check for diff and map value to index |
 |[Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/RomanToInteger.py) [C++](./easy/RomanToInteger.cpp) | Easy | Map Roman to Int | 
 |[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./easy/RemoveElement.py) | Easy | Keep track of num of elements not in nums | 
+|[Pascal Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./easy/PasTriangle.py) | Easy | Check prev values to find curr |
 |[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Python](./easy/UniqueEmailAddresses.py) | Easy | Use set | 
 |[ Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | [Python](./easy/DiffOfTwoArrays.py) | Easy | create ans = [[], []] and loop thru nums1 and nums2 | 
 |[Find the Index of First Occurence in String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/FindIndexOfFirstOccurence.py) | Easy | Slicing | 
