@@ -180,6 +180,7 @@
 |[Combination Sum ll](https://leetcode.com/problems/combination-sum-ii/) | [Python](./medium/CombinationSum2.py) | Medium | Sort list -> dfs backtrack -> skip over duplicates |
 |[Word Search](https://leetcode.com/problems/word-search/) | [Python](./medium/WordSearch.py) | Medium | DFS and keep track of visited and replace board with original values once depth reached |
 |[Permutations](https://leetcode.com/problems/permutations/) | [Python](./medium/permutations.py) | Medium | Keep track of choices with boolean list size of nums |
+|[Palidrome Partitioning](https://leetcode.com/problems/palidrome/partitioning/) | [Python](./medium/PaliPart.py) | Medium | Dfs and check for palidrome |
 
 
 ## Graphs
