@@ -86,8 +86,8 @@
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./medium/SpiralMatrix.py) | Medium | Keep track of L,R,T,B | 
 |[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./medium/SetMatrixZeroes.py) | Medium | Create set for rows and cols with zeros | 
 |[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./medium/SearchA2DMatrix.py) | Medium | Binary Search | 
+|[Game of Life](https://leetcode.com/problems/game-of-life/) | [Python](./medium/GameofLife.py) | Medium | Use set to store indexes for zeros and ones |
 |[Rotate Matrix 90 Degrees](https://app.codesignal.com/interview-practice/question/5A8jwLGcEpTPyyjTB/description) | [Python](./code-signal/rotateImage.py) | Medium | Take transpose then go through range n//2 then swap [i][j], [j][i] <-> [i][n-j], [i][j] | 
-
 
 ## Sliding Window
 | Problem | Solution | Difficulty | Hint |
