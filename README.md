@@ -186,6 +186,7 @@
 |[Combinations](https://leetcode.com/problems/combinations/) | [Python](./medium/Combinations.py) | Medium | Backtrack |
 |[Palidrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [Python](./medium/PaliPart.py) | Medium | Dfs and check for palidrome |
 |[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](./hard/SudokuSolver.py) | Hard | Backtrack with checking if next empty spot is valid |
+|[N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./hard/NQueens.py) | Hard | Backtrack and keep tract of pos and neg diags (r+c) and (r-c) |
 
 
 ## Graphs
