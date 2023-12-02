@@ -123,6 +123,7 @@
 | Problem | Solution | Difficulty | Hint |
 | ------- | -------- | ---------- | ------------ |
 |[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./easy/DFS.py) | Easy | DFS | 
+|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./easy/SumLeftLeaf.py) | Easy | DFS | 
 |[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./easy/BinaryTreePostTraversal.py) | Easy | Recrusive DFS or use stack and BFS iterativly and return reversed list | 
 |[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Python](./easy/CountGoodNodes.py) | Easy | BFS and add by length of queue | 
 |[Bianry Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Python](./easy/BinaryTreePaths.py) | Easy | DFS and checkk if not root.left and not root.right | 
