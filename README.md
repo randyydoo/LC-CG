@@ -96,6 +96,7 @@
 | ------- | -------- | ---------- | ------------ |
 |[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./easy/BestTimeBuyStock.py) | Easy | Keep track of highest |
 |[Maximum Average Subarray l](https://leetcode.com/problems/maximum-average-subarray-i/)| [Python](./easy/MaxSubarrayl.py) | Easy | Find max sum -> return max_sum/k |
+|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./medium/BuySellStock2.py) | Medium | Add to profit if profit[i] < profit[i+1] |
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
 |[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Python](./medium/PermutationInString.py) | Medium | Sliding window | 
 |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)| [Python](./medium/VowelSubstring.py) | Medium | Find count from 0 -> k then sliding window k -> len(s) | 
