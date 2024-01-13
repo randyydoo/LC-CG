@@ -144,6 +144,8 @@
 |[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./medium/SumRootToLeafNumbers.py) | Medium | DFS and keep track of int with str |
 |[Path Sum ll](https://leetcode.com/problems/path-sum-ii/) | [Python](./medium/PathSum2.py) | Medium | DFS with stack and check when sum(stack) = target |
 |[Path Sum lll](https://leetcode.com/problems/path-sum-iii/) | [Python](./medium/PathSum3.py) | Medium | Brute force and get sum of every root |
+|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python](./medium/TreeInfect.py) | Medium | Convert to undirected graph then dfs |
+|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [Python](./medium/MaxDiffAncest.py) | Medium | Return min and max pairs to calculate diff |
 |[Symetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./medium/SymetricTree.py) | Medium | DFS with invert recursive call |
 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./medium/BinaryTreeLevelOrderTraversal.py) | Medium | BFS |
 |[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./medium/LargestValueinTreeRow.py) | Medium | BFS |
