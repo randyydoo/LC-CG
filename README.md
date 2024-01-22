@@ -74,6 +74,7 @@
 |[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./easy/BinarySearch.py) | Easy | Create left,right, and middle pointer | 
 |[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./medium/Search2DMatrix.py) [C++](./medium/Search2DMatrix.cpp)| Medium | Find row by comparing 0th and -1th index -> regular binary search on row | 
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./medium/FindMinimumInRotatedSortedArray.py) | Medium | If right pointer greater than curr pointer move window down |
+|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./medium/RangeBinarySearch.py) | Medium | Two pass binary search |
 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./medium/SearchInRotatedSortedArray.py) | Medium | Check left -> mid and mid -> bounds to see if sorted |
 |[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)| [Python](./medium/KokoEatingBananas.py) | Medium | Binary search and keep track of amount of bannas ate |
 |[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)| [Python](./medium/TimeBasedKey-ValueStore.py) | Medium | Map key to list of lists and binary search(left = 0, right = length of key)) |
