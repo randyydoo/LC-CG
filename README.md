@@ -44,6 +44,7 @@
 |[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) | [Python](./medium/LastAnt.py) | Medium | Find max ant from falling |
 |[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | [Python](./medium/Garbage.py) | Medium | Calculate (total time cost) + (trash count) |
 |[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | [Python](./medium/NicePairs.py) | Medium | Map num-rev : count |
+|[Candy](https://leetcode.com/problems/candy/) | [Python](./hard/Candy.py) | Hard | Two pass and map index: candy_ct  |
 
 
 
