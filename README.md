@@ -30,6 +30,9 @@
 |[Find the Index of First Occurence in String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/FindIndexOfFirstOccurence.py) | Easy | Slicing | 
 |[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./easy/SearchInsert.py) | Easy | Loop through and compare | 
 |[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./easy/ContainsDuplicate.py) [C++](./easy/ContainsDuplicate.cpp) | Easy | Use set to check | 
+|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./easy/ContainsDuplicate2.py) | Easy | Map mp[num]: i |
+|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./easy/HappyNumber.py) | Easy | Keep track of visited numbers |
+|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./easy/IsoStrings.py) | Easy | Map curr s_char with t_char and keep track of used t_chars |
 |[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./easy/ValidAnagram.py) [C++](./easy/ValidAnagram.cpp) | Easy | Map with occurences | 
 |[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./easy/ZigzagConv.py) | Medium | Create list of empty strings size of rows -> check if index at end of list | 
 |[Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./medium/SearchInRotatedSortedArray.py) | Medium | Binary Search with first and second half of array |
@@ -144,6 +147,7 @@
 |[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./easy/SubtreeofAnotherTree.py) | Easy | dfs until root.val == subRoot.val and use helper function for same tree |
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./medium/LowestCommonAncestorBST.py) | Medium | DFS until split (root > p.val and root <  q.val (vise versa)) |
 |[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./medium/SumRootToLeafNumbers.py) | Medium | DFS and keep track of int with str |
+|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Python](./medium/PalindromePaths.py) | Medium | DFS -> keep cts of values -> check if max odd value is <= 1 |
 |[Path Sum ll](https://leetcode.com/problems/path-sum-ii/) | [Python](./medium/PathSum2.py) | Medium | DFS with stack and check when sum(stack) = target |
 |[Path Sum lll](https://leetcode.com/problems/path-sum-iii/) | [Python](./medium/PathSum3.py) | Medium | Brute force and get sum of every root |
 |[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python](./medium/TreeInfect.py) | Medium | Convert to undirected graph then dfs |
