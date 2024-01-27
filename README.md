@@ -104,6 +104,7 @@
 |[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./medium/BuySellStock2.py) | Medium | Add to profit if profit[i] < profit[i+1] |
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./medium/LongestSubstringWithoutRepeatingCharacters.py) [C++](./medium/LongSubstringWithoutRepeatingCharacters.cpp) | Medium | Slding window |
 |[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Python](./medium/PermutationInString.py) | Medium | Sliding window | 
+|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Python](./medium/MergeIntervals.py) | Medium | Sort by start time -> sliding window | 
 |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)| [Python](./medium/VowelSubstring.py) | Medium | Find count from 0 -> k then sliding window k -> len(s) | 
 |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Python](./medium/MinSizeSubSum.py) | Medium | Sliding window | 
 |[Find Longest Subarray By Sum](https://app.codesignal.com/interview-practice/question/izLStwkDr5sMS9CEm/description)| [Python](./code-signal/findLongestSubarrayBySum.py) | Medium | increase window size until sum > target then minimize left side of window until > target | 
