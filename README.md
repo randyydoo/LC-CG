@@ -168,6 +168,7 @@
 |[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [Python](./medium/MaximumBinaryTree.py) | Medium | Get max of nums -> -> dfs with left and right subarray |
 |[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [Python](./medium/PrintBinaryTree.py) | Medium | Get height -> create matrix -> dfs |
 |[Binary Tree Maximum Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](./hard/MaxPathSumBinaryTree.py) | Hard | DFS and compare left and right recursive calls with max(0,left or right) to get edge case of root itself being max |
+|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./hard/DesAndSerTree.py) | Hard | DFS to turn tree to str then use refernce incremnter to loop through split data |
 
 
 ## Tries
