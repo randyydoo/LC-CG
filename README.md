@@ -123,6 +123,7 @@
 |[Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./medium/SwapNodesInPairs.py) | Medium | Keep track of curr.next and curr.next.next |
 |[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./medium/ReverseLL2.py) | Medium | 3 pass and use multiple pointers |
 |[Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./medium/CopyListWithRandomPointer.py) | Medium | Map old node to new node |
+|[Partition List](https://leetcode.com/problems/partition-list/) | [Python](./medium/PartList.py) | Medium | One pass with 2 dummy nodes |
 |[Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./medium/ReorderList.py) | Medium | Find middle using 2 ptr, reverse list end -> middle, merge | 
 |[LRU Cache](https://leetcode.com/problems/lru-cache/)| [Python](./medium/LRUCache.py) | Medium | Use a map and deque |
 |[Remove K from List](https://app.codesignal.com/interview-practice/question/gX7NXPBrYThXZuanm/description) | [Python](./code-signal/removedKFromList.py) | Medium | check for curr.next.next and return head if head.val != k | 
