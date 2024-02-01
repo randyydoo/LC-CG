@@ -41,6 +41,7 @@
 |[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | [Python](./medium/MinFrogs.py) | Medium | Update new frog when arrive at 'c' -> map char with count |
 |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./medium/LongestConsecutiveSequence.py) [C++](./medium/LongestConsecutiveSequence.cpp) | Medium | Keep track of previous index | 
 |[Prodcut of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| [Python](./medium/ProductOfArrayExceptSelf.py) | Medium | create left and right list [1] * len(nums), get product of left and right in nums except [0] and [-1], match index and multiply | 
+|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)| [Python](./medium/DivArray.py) | Medium | One pass |
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [Python](./medium/TopKFrequentElements.py) | Medium | Bubble sort | 
 |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./medium/LongestConsecutiveSeq.py) | Medium | Convert nums to a set and check if start of sequence -> end of sequence | 
 |[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)| [Python](./medium/WinnerofArray.py) | Medium | Compare 0th index continuously |
