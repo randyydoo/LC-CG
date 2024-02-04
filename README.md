@@ -109,6 +109,7 @@
 |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)| [Python](./medium/VowelSubstring.py) | Medium | Find count from 0 -> k then sliding window k -> len(s) | 
 |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Python](./medium/MinSizeSubSum.py) | Medium | Sliding window | 
 |[Find Longest Subarray By Sum](https://app.codesignal.com/interview-practice/question/izLStwkDr5sMS9CEm/description)| [Python](./code-signal/findLongestSubarrayBySum.py) | Medium | increase window size until sum > target then minimize left side of window until > target | 
+|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Python](./hard/MinWindowSubstring.py) | Hard | Update valid matches when ct is == to t[c] and store range in tuple |
 
 
 ## Linked List
