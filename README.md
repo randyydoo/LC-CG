@@ -131,6 +131,7 @@
 |[Convert Sorted Linked List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [Python](./medium/ConvertSortedListToBinarySearchTree.py) | Medium | Create list of vals and dfs helper function |
 |[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)| [Python](./medium/SplitLinkedListInParts.py) | Medium | Get length of list and append to ans when part size hit |
 |[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./hard/MergeKSortedLists.py) | Hard | Create helper function to merge 2 lists and merge first list with rest |
+|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./hard/RevNodesKGroup.py) | Hard | Use stack to keep track of k nodes |
 
 ## Trees
 | Problem | Solution | Difficulty | Hint |

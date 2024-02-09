@@ -6,6 +6,7 @@ class Solution:
             return (d['c'] >= d['r'] >= d['o'] >= d['a'] >= d['k'])
 
         for c in croakOfFrogs:
+
             d[c] += 1
             if not valid(d):
                 return -1
