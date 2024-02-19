@@ -14,7 +14,7 @@ class Solution:
                 q.append(node.right) if node and node.right else None
 
             return q
-
+ # hell
         q = deque([root]) if root else deque([])
         ans = []
 
